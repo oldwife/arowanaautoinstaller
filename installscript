@@ -1,21 +1,21 @@
 #!/bin/sh
+sudo pacman -Syyu
+sduo pacman -S base base-devel git archlinux-keyring sudo
+sudo pacman -S udisks2 yt-dlp fzf mpv pass pulsemixer tmux pipewire pipewire-pulse bluez neovim qutebrowser tamsyn-font xorg-xmodmap xorg-server xorg-xinit xorg-xsetroot zsh-syntax-highlighting
+
 cd ~
 git clone "https://github.com/oldwife/discusdmenu"
 cd discusdmenu
 sudo make install
 cd ~
-
-cd ~
 git clone "https://github.com/oldwife/doradodwm"
 cd doradodwm
 sudo make install
-cd ~
-
 cd ~
 git clone "https://github.com/oldwife/sardinest"
 cd sardinest
 sudo make install
 cd ~
-
 git clone "https://github.com/oldwife/brilldots"
-cp -r brilldots ~/
+cp -r ~/brilldots/. ~/
+cd ~
