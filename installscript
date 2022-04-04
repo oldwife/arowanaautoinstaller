@@ -1,0 +1,21 @@
+#!/bin/sh
+cd ~
+git clone "https://github.com/oldwife/discusdmenu"
+cd discusdmenu
+sudo make install
+cd ~
+
+cd ~
+git clone "https://github.com/oldwife/doradodwm"
+cd doradodwm
+sudo make install
+cd ~
+
+cd ~
+git clone "https://github.com/oldwife/sardinest"
+cd sardinest
+sudo make install
+cd ~
+
+git clone "https://github.com/oldwife/brilldots"
+cp -r brilldots ~/
