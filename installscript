@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo pacman -Syyu
-sduo pacman -S base base-devel git archlinux-keyring sudo
-sudo pacman -S udisks2 yt-dlp fzf mpv pass pulsemixer tmux pipewire pipewire-pulse bluez neovim qutebrowser tamsyn-font xorg-xmodmap xorg-server xorg-xinit xorg-xsetroot zsh-syntax-highlighting
+sudo pacman -S base base-devel git archlinux-keyring
+sudo pacman -S udisks2 fzf mpv pass pulsemixer tmux pipewire pipewire-pulse bluez neovim qutebrowser tamsyn-font xorg-xmodmap xorg-server xorg-xinit xorg-xsetroot zsh-syntax-highlighting
 
 cd ~
 git clone "https://github.com/oldwife/discusdmenu"
